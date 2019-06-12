@@ -10,12 +10,14 @@ There are two endpoints both of which use post method :-
 
 1. 'ifsc/' In this endpoint we should provide IFSC code of a bank to get all the details of the bank
 ```json
+url :- https://s-bank1995.herokuapp.com/ifsc/
 {"ifsc":"BARB0DUMIYA"}
 ```
 
 2. 'branch/' In this endpoint we have to provide two keys 'city' and 'bank name' which will provide us with all the branches of the given bank within the given city
 ```json
-{{"bank":"ABHYUDAYA COOPERATIVE BANK LIMITED", "city": "MUMBAI"}}
+url :- https://s-bank1995.herokuapp.com/branch/
+{"bank":"ABHYUDAYA COOPERATIVE BANK LIMITED", "city": "MUMBAI"}
 ```
 
 ## Installing and running
