@@ -16,16 +16,18 @@ There are two endpoints both of which use post method :-
 2. 'branch/' In this endpoint we have to provide two keys 'city' and 'bank name' which will provide us with all the branches of the given bank within the given city
 ```json
 {{"bank":"ABHYUDAYA COOPERATIVE BANK LIMITED", "city": "MUMBAI"}}
+```
 
 ## Installing and running
 
 Install the dependencies of the api using the command :-
 
-```
+```bash
 pip install -r requirements.txt
 ```
 Then run the server :-
-```
+
+```bash
 python manage.py runserver
 ```
 
